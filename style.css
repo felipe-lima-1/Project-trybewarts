@@ -1,12 +1,13 @@
 main{
     display: flex;
     justify-content: space-between;
+    background-color: lightgray;
 }
 
-div{
+.form{
     display: flex;
     margin: 5px;
-    justify-content: space-between;
+    /* justify-content: space-around; */
 }
 
 .header {
@@ -20,6 +21,13 @@ div{
     align-items: center;
 }
 
+#radio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3px;
+}
+
 #trybewarts-header-title{
     display: flex;
     align-items: center;
@@ -29,8 +37,6 @@ div{
     display: flex;
     width: 675px;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
 }
 
 #trybewarts-forms-logo{
