@@ -1,5 +1,12 @@
 main{
     display: flex;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
 }
 
 .header {
@@ -22,7 +29,8 @@ main{
     display: flex;
     width: 675px;
     flex-direction: column;
-
+    align-items: center;
+    align-content: center;
 }
 
 #trybewarts-forms-logo{
