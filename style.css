@@ -7,7 +7,6 @@ main {
 .form {
   display: flex;
   margin: 5px;
-  /* justify-content: space-around; */
 }
 
 .header {
