@@ -1,48 +1,48 @@
-main{
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
 }
 
-.form{
-    display: flex;
-    margin: 5px;
-    /* justify-content: space-around; */
+.form {
+  display: flex;
+  margin: 5px;
+  /* justify-content: space-around; */
 }
 
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    justify-content: space-between
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
 }
 
 .trybewarts-login {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #radio {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3px;
 }
 
-#trybewarts-header-title{
-    display: flex;
-    align-items: center;
+#trybewarts-header-title {
+  display: flex;
+  align-items: center;
 }
 
-#evaluation-form{
-    display: flex;
-    width: 675px;
-    flex-direction: column;
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
 
-#trybewarts-forms-logo{
-    height: 500px;
+#trybewarts-forms-logo {
+  height: 500px;
 }
 
-#concorda{
-    display: flex;
+#concorda {
+  display: flex;
 }
