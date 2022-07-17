@@ -1,23 +1,55 @@
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: lightgray;
+  padding: 30px;
 }
 
 .form {
   display: flex;
   margin: 5px;
+  width: 370px;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  height: 80px;
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+.trybewarts-header-logo {
+  margin: 5px 10px;
+}
+
+#user {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+#senha {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+#button {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  width: 130px;
+  color: white;
+  background-color: purple;
 }
 
 #radio {
@@ -30,12 +62,14 @@ main {
 #trybewarts-header-title {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-items: center;
 }
 
 #trybewarts-forms-logo {
@@ -44,4 +78,30 @@ main {
 
 #concorda {
   display: flex;
+}
+
+#house{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+#input-name{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+#input-lastname{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+#input-email{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
 }
